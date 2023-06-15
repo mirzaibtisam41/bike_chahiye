@@ -1,0 +1,14 @@
+@media (min-width:768px) and (max-width:1023px) {
+    .nd2-col-gallery {
+        margin-top: 1rem;
+    }
+    .col-5-carousel {
+        padding: 0!important;
+    }
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .makeStyles-root-3 {
+        margin: 11px!important;
+    }
+}

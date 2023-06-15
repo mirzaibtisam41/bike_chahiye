@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  height: "217px";
+  width: 400px;
+}
+
+.loadMore {
+  background-color: rgb(202, 53, 53);
+  color: floralwhite;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  font-weight: bold;
+  border: "1px solid rgb(202, 53, 53);";
+}
+.contentTitle {
+  height: 80px;
+  width: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  line-height: 28px !important;
+  color: black;
+}

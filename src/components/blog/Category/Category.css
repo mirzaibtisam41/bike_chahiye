@@ -1,0 +1,139 @@
+.headings{
+    
+    font-size:'24px'!important;
+    font-weight:'700'!important;
+    font-family:'roboto'!important;
+    background-color:'rgb(202, 53, 53)'!important;
+}
+.category-input {
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #f7f7f7;
+}
+
+.search-container {
+    background-color: #f7f7f7;
+    border: none;
+}
+
+.list-container {
+    height: 500px;
+    width: 97%;
+    overflow-y: auto;
+   
+}
+.about {
+    height: 400px;
+    width: 97%;
+    overflow-y: auto;
+   
+}
+
+.list-container2 {
+    height: 300px;
+    width: 97%;
+    overflow-y: auto;
+   
+}
+
+.list-container::-webkit-scrollbar {
+    width: 5px;
+    
+}
+
+.input-blog {
+    background-color: #f7f7f7;
+}
+
+.list-container::-webkit-scrollbar-track {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+.list-container::-webkit-scrollbar-thumb {
+    background: rgb(202, 53, 53);
+    border-radius: 10px;
+}
+
+.list-container::-webkit-scrollbar-thumb:hover {
+    background: black;
+    
+} 
+
+
+/* ------------------------------------------- */
+
+.list-container2::-webkit-scrollbar {
+    width: 5px;
+}
+
+.list-container2::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+.list-container2::-webkit-scrollbar-thumb {
+    background:rgb(202, 53, 53);
+    border-radius: 10px;
+}
+
+.list-container2::-webkit-scrollbar-thumb:hover {
+    background:rgb(202, 53, 53)
+}
+ .about {
+    height: 320px;
+    width: 100%;
+    overflow-y: auto;
+    font-size:'18px'!important;
+   
+}
+
+@media (min-width:0px) and (max-width:767px) {
+   
+    .text{
+        font-size:'16px'!important;
+    }
+    .about {
+        height: 420px;
+        width: 100%;
+        overflow-y: auto;
+        font-size:'14px'!important;
+       
+    }
+ }
+
+ @media (min-width:768px) and (max-width:1366px) {
+   
+    .text{
+        font-size:'20px'!important;
+        padding: 10px;
+      
+    }
+    .about {
+        height: 360px;
+        width: 100%;
+        overflow-y: auto;
+        font-size:'12px'!important;
+        padding: 10px;
+       
+    }
+ }
+
+ /* @media (min-width:600px) and (max-width:1024px) {
+   
+    .text{
+        font-size:'16px'!important;
+        font-weight: 100;
+        padding: 10px;
+        
+    }
+    .about {
+        height: 480px;
+        width: 100%;
+        overflow-y: auto;
+        font-size:'14px'
+       
+    }
+   
+ } */

@@ -1,0 +1,60 @@
+body{
+    backgroundColor:'white'
+}
+.postbody{
+   
+        background-color: white;
+  
+}
+.font-size-small {
+    font-size: small;
+}
+
+.bg-color {
+    background-color: c;
+}
+
+.text-area:focus {
+    outline: none!important;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.border-btm {
+    border-bottom: 1px solid #FA7C26;;
+}
+
+.comment-text {
+    position: relative;
+}
+
+.icon-info-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.comment-main {
+    width: 90%;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .comment-main {
+        width: 100%;
+    }
+}
+
+@media (min-width:0px) and (max-width:767px) {
+    .comment-main, .comment-text {
+        padding-right: 1rem!important;
+        padding-left: 1rem!important;
+    }
+    .comment-main {
+        width: 100%;
+    }
+    .post-options {
+        width: 100%!important;
+    }
+}
